@@ -112,6 +112,20 @@ form input[type="radio"]{
     display: none;
 }
 
+form .birthday-details .birthday-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .birthday-details input{
+    display: flex;
+    margin-top: 10px;
+    width: 20%;
+    border: 1px solid #9b59b6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 form .button{
     height: 45px;
     margin: 45px 0;
@@ -144,6 +158,9 @@ form .button input:hover{
     }
     form .gender-details .category{
         width: 100%;
+    }
+    form .birthday-details input{
+        width: auto;
     }
     .container form .user-details{
         max-height: 300px;
